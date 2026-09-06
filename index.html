@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAJAVIBE | Perfumes & Watches</title>
+<meta name="description" content="RAJAVIBE — premium perfumes, watches and luxury accessories.">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#0b0b0b;color:#f7f3ea}
+a{text-decoration:none;color:inherit}.top{background:#c9a45c;color:#111;text-align:center;padding:9px;font-size:13px;font-weight:700}
+header{position:sticky;top:0;z-index:10;background:rgba(11,11,11,.96);border-bottom:1px solid #292929}
+.nav{max-width:1180px;margin:auto;padding:18px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-size:25px;letter-spacing:4px;font-weight:800}.logo span{color:#c9a45c}
+nav{display:flex;gap:24px;font-size:14px;color:#ddd}.cart{border:1px solid #c9a45c;padding:9px 14px;border-radius:30px;color:#c9a45c}
+.hero{min-height:570px;display:flex;align-items:center;background:radial-gradient(circle at 75% 40%,#493b24 0,#17130e 28%,#0b0b0b 60%)}
+.hero-inner{max-width:1180px;width:100%;margin:auto;padding:70px 22px}.eyebrow{color:#c9a45c;letter-spacing:4px;font-size:12px;font-weight:bold}
+h1{font-size:clamp(44px,7vw,82px);line-height:.95;margin:18px 0;max-width:720px}
+.hero p{max-width:540px;color:#cfcfcf;font-size:18px;line-height:1.7}.btn{display:inline-block;background:#c9a45c;color:#111;padding:14px 23px;border-radius:3px;font-weight:800;margin-top:12px}.btn.alt{background:transparent;color:#f7f3ea;border:1px solid #555;margin-left:10px}
+section{max-width:1180px;margin:auto;padding:70px 22px}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:28px}.section-head h2{font-size:34px;margin:0}.muted{color:#aaa}
+.categories{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.cat{min-height:190px;padding:24px;display:flex;align-items:end;background:linear-gradient(145deg,#27221a,#111);border:1px solid #302b22}.cat:nth-child(2){background:linear-gradient(145deg,#211e22,#111)}.cat:nth-child(3){background:linear-gradient(145deg,#252016,#111)}.cat:nth-child(4){background:linear-gradient(145deg,#202020,#111)}.cat h3{margin:0;font-size:20px}.products{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:#131313;border:1px solid #262626;overflow:hidden}.pic{height:250px;display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,#28231b,#0f0f0f);font-size:70px}.card-body{padding:17px}.tag{font-size:10px;letter-spacing:2px;color:#c9a45c}.card h3{font-size:16px;margin:9px 0}.price{font-weight:bold;font-size:18px}.old{text-decoration:line-through;color:#777;font-size:13px;margin-left:7px}.add{display:block;text-align:center;margin-top:14px;padding:10px;border:1px solid #555;font-size:13px}.banner{background:#17130e;border:1px solid #3a3121;text-align:center;padding:55px 20px}.banner h2{font-size:36px;margin:10px}.banner p{color:#bbb}
+footer{border-top:1px solid #292929;color:#aaa;padding:35px 22px;text-align:center;font-size:13px}
+@media(max-width:800px){nav{display:none}.categories,.products{grid-template-columns:repeat(2,1fr)}.pic{height:210px}.hero{min-height:500px}}
+@media(max-width:500px){.categories,.products{grid-template-columns:1fr 1fr;gap:10px}.cat{min-height:150px;padding:16px}.pic{height:180px}.hero p{font-size:15px}.btn.alt{margin-left:0;margin-top:8px}}
+</style>
+</head>
+<body>
+<div class="top">FREE UAE DELIVERY ON ORDERS OVER AED 199 • SHOP PREMIUM • SHOP CONFIDENTLY</div>
+<header><div class="nav">
+<div class="logo">RAJA<span>VIBE</span></div>
+<nav><a href="#shop">Shop</a><a href="#perfumes">Perfumes</a><a href="#watches">Watches</a><a href="#offers">Offers</a></nav>
+<a class="cart" href="#shop">🛒 Cart <span id="count">0</span></a>
+</div></header>
+
+<main>
+<section class="hero"><div class="hero-inner">
+<div class="eyebrow">PERFUMES • WATCHES • STYLE</div>
+<h1>Make Every Moment<br>Feel <span style="color:#c9a45c">Luxurious.</span></h1>
+<p>Discover signature fragrances and elegant timepieces selected for modern men and women.</p>
+<a class="btn" href="#shop">SHOP COLLECTION</a><a class="btn alt" href="#offers">VIEW OFFERS</a>
+</div></section>
+
+<section id="shop">
+<div class="section-head"><div><div class="eyebrow">CURATED FOR YOU</div><h2>Shop by category</h2></div></div>
+<div class="categories">
+<a class="cat" href="#perfumes"><div><div class="tag">01</div><h3>Men's Perfumes</h3></div></a>
+<a class="cat" href="#perfumes"><div><div class="tag">02</div><h3>Women's Perfumes</h3></div></a>
+<a class="cat" href="#watches"><div><div class="tag">03</div><h3>Men's Watches</h3></div></a>
+<a class="cat" href="#watches"><div><div class="tag">04</div><h3>Women's Watches</h3></div></a>
+</div>
+</section>
+
+<section id="perfumes">
+<div class="section-head"><div><div class="eyebrow">FRAGRANCE EDIT</div><h2>Signature Perfumes</h2></div><span class="muted">New arrivals</span></div>
+<div class="products">
+<div class="card"><div class="pic">🌹</div><div class="card-body"><div class="tag">MEN</div><h3>Royal Oud Intense</h3><div class="price">AED 129 <span class="old">AED 159</span></div><a class="add" href="#" onclick="addToCart(event)">ADD TO CART</a></div></div>
+<div class="card"><div class="pic">✨</div><div class="card-body"><div class="tag">UNISEX</div><h3>Golden Amber</h3><div class="price">AED 149</div><a class="add" href="#" onclick="addToCart(event)">ADD TO CART</a></div></div>
+<div class="card"><div class="pic">🌸</div><div class="card-body"><div class="tag">WOMEN</div><h3>Velvet Rose</h3><div class="price">AED 119 <span class="old">AED 145</span></div><a class="add" href="#" onclick="addToCart(event)">ADD TO CART</a></div></div>
+<div class="card"><div class="pic">🖤</div><div class="card-body"><div class="tag">MEN</div><h3>Black Royale</h3><div class="price">AED 139</div><a class="add" href="#" onclick="addToCart(event)">ADD TO CART</a></div></div>
+</div>
+</section>
+
+<section id="watches">
+<div class="section-head"><div><div class="eyebrow">TIMEPIECES</div><h2>Elegant Watches</h2></div></div>
+<div class="products">
+<div class="card"><div class="pic">⌚</div><div class="card-body"><div class="tag">MEN</div><h3>Executive Gold</h3><div class="price">AED 249</div><a class="add" href="#" onclick="addToCart(event)">ADD TO CART</a></div></div>
+<div class="card"><div class="pic">⌚</div><div class="card-body"><div class="tag">MEN</div><h3>Midnight Steel</h3><div class="price">AED 219</div><a class="add" href="#" onclick="addToCart(event)">ADD TO CART</a></div></div>
+<div class="card"><div class="pic">⌚</div><div class="card-body"><div class="tag">WOMEN</div><h3>Rose Classic</h3><div class="price">AED 229</div><a class="add" href="#" onclick="addToCart(event)">ADD TO CART</a></div></div>
+<div class="card"><div class="pic">⌚</div><div class="card-body"><div class="tag">WOMEN</div><h3>Crystal Elegance</h3><div class="price">AED 279</div><a class="add" href="#" onclick="addToCart(event)">ADD TO CART</a></div></div>
+</div>
+</section>
+
+<section id="offers"><div class="banner">
+<div class="eyebrow">LIMITED-TIME OFFER</div><h2>Luxury Looks. Better Prices.</h2>
+<p>Save on selected perfumes and watches while stocks last.</p><a class="btn" href="#shop">SHOP OFFERS</a>
+</div></section>
+</main>
+<footer>© 2026 RAJAVIBE • Perfumes & Watches • UAE &nbsp; | &nbsp; Privacy • Shipping • Returns • Contact</footer>
+<script>
+let count=0;
+function addToCart(e){e.preventDefault();count++;document.getElementById('count').textContent=count; e.target.textContent='ADDED ✓'; setTimeout(()=>e.target.textContent='ADD TO CART',900);}
+</script>
+</body></html>
